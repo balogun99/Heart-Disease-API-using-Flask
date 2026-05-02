@@ -1,0 +1,13 @@
+prefix=/Users/macbookpro/Desktop/Heart Disease API Using Flask/ml_flask_api_heart
+exec_prefix=/Users/macbookpro/Desktop/Heart Disease API Using Flask/ml_flask_api_heart
+libdir=/Users/macbookpro/Desktop/Heart Disease API Using Flask/ml_flask_api_heart/lib
+sharedlibdir=/Users/macbookpro/Desktop/Heart Disease API Using Flask/ml_flask_api_heart/lib
+includedir=/Users/macbookpro/Desktop/Heart Disease API Using Flask/ml_flask_api_heart/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
